@@ -1015,7 +1015,8 @@ footer ul {
     .lescartes {
         display: grid;
         gap: 20px;
-        grid-template-columns: 33.3% 33.3% 33.3%;
+        height:;
+        grid-template-columns: 30.3% 30.3% 30.3%;
         justify-items: center;
         background-color: #f2f2f2;
         border-radius: 12px;
@@ -1053,15 +1054,12 @@ footer ul {
         margin-bottom: 0px;
     
     }
-    .b.b1{
-        width: 100%;
-    }
-    
+
     .b {
         background-color: #f2f2f2;
         border-radius: 12px;
         width: 60%;
-        height: max-content;
+        height: 430px;
         justify-content: space-around;
         flex-wrap: wrap;
         padding-top: 0px;
@@ -1101,8 +1099,6 @@ footer ul {
     }
     .b1 {
         margin-right: 0 auto;
-
-
     } 
   
     .Btns {
@@ -1383,7 +1379,7 @@ footer ul {
         display: flex;
         align-items: flex-start;
         height: 86px;
-        width: fit-content;
+        width: 300px;
         border: 1px solid white;
         background-color: #ffff;
         border-radius: 10px;
@@ -1394,6 +1390,7 @@ footer ul {
         margin-top: 10px;
         margin-right: 20px;
         margin-left: 20px;
+
         margin-bottom: 34px;
     }
     
@@ -1448,6 +1445,10 @@ footer ul {
         margin-bottom: 10px;
         font-weight: bolder;
     }
+    .lescartesdemarseille{
+        width: 95%;
+
+    }
     
     .lescartesbas {
      
@@ -1483,8 +1484,6 @@ footer ul {
         height: hv;
 
     } */
-
-
 
     .activiteaMarseille {
         padding: 0px;
