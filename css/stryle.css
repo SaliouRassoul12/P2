@@ -487,8 +487,8 @@ i.fa-search{
 }
 
 .Marseille {
-    width: fit-content;
-    margin-left: 13px;
+    /* width: fit-content; */
+    margin-left: -10px;
     font-size: medium;
     margin-bottom: 10px;
     font-weight: bolder;
@@ -739,6 +739,9 @@ footer ul {
 @media screen and (max-width: 375px) {
     html, body {
         margin: 0px;
+        display:block
+        justify-content: center;
+        align-items:center;
     }
     .logo {
         margin-left: 10px;
@@ -770,7 +773,7 @@ footer ul {
     .Activite {
         display: block;
         margin-left: 30px;
-        border-bottom: 1px solid transparent;
+        border-bottom: 1px solid rgb(204, 202, 202);
         width: 190%;
     }
 
@@ -827,6 +830,7 @@ footer ul {
     }
     .icones{
         display:inline-block;
+        font-size: 19px;
     }
     .btn1and2{
         display: inline-flex;
@@ -845,7 +849,8 @@ footer ul {
         padding: 0px;
         margin-top: 30px;
         width: 100%;
-        justify-items: center;
+        /* justify-items: center; */
+        background-color: white;
     }
     .HM {
         font-size: large;
@@ -871,12 +876,15 @@ footer ul {
         margin-top: 30px;
         width: 100%;
         justify-items: center;
+        border-radius: 0%;
     }
     .lescartes {
         display: inline-flex;
         flex-direction: column;
         width: 95%;
         margin: 0px;
+        background-color:white;
+        border: 0px solid white;
     }
     .Cartehotel {
         width: 100%;
@@ -916,6 +924,7 @@ footer ul {
         margin: 0px;
         display: inline-flex;
         flex-direction: column;
+       
     }
     .footer {
         display: inline-flex;
@@ -934,6 +943,7 @@ footer ul {
         width: 100%;
         height: 100px;
         object-fit: cover;
+        border: none;
     }
     .activitePortrait {
         margin: 20px;
@@ -959,6 +969,7 @@ footer ul {
     .activiteLandscapeCap {
         font-size: large;
         background-color: transparent;
+
     }
     .footerTitle {
         font-size: medium;
@@ -999,7 +1010,7 @@ footer ul {
     .conteneur{
         max-width:1300px;
         margin:0 auto;
-        background-color: red;
+        /* background-color: red;  */
     }
 
     
@@ -1079,7 +1090,6 @@ footer ul {
     .lescartes {
         display: grid;
         gap: 20px;
-        height:;
         grid-template-columns: 30.3% 30.3% 30.3%;
         justify-items: center;
         background-color: #f2f2f2;
@@ -1122,8 +1132,8 @@ footer ul {
     .b {
         background-color: #f2f2f2;
         border-radius: 12px;
-        width: 60%;
-        height: 430px;
+        width: 63%;
+        height: 437px;
         justify-content: space-around;
         flex-wrap: wrap;
         padding-top: 0px;
@@ -1143,7 +1153,7 @@ footer ul {
     .b1 {
         display: inline-flex;
         flex-direction: column;
-        width: 30%;
+        width: 34%;
         height: max-content;
         background-color: #f2f2f2;
         border: 1px solid #f2f2f2;
@@ -1155,7 +1165,7 @@ footer ul {
         padding-right: 0px;
         font-size: 10px;
         margin-top: 10px;
-        margin-right: 5%;
+        margin-right: 4px;
         margin-bottom: 20px;
         justify-content: space-evenly;
         align-items: center;
@@ -1415,16 +1425,16 @@ footer ul {
     .AP {
         font-weight: bolder;
         font-size: small;
-        margin-top: 12px;
+        margin-top: 8px;
         margin-left: 33px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     
     .fa-chart-line {
         position: relative;
         top: -10px;
         margin-right: -276px;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: bolder;
     }
     
@@ -1513,30 +1523,19 @@ footer ul {
         width: 95%;
 
     }
-    
-    .lescartesbas {
-     
-        /* display: inline-flex;
-        gap: 33px;
-        justify-content:space-between; 
-        width:91.5%;
-        height: hv;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        font-size: 14px;
-        
-        padding: 0px;
-        margin-left:0 px;
-        margin-right: 0px; */
-    
-    }
 
     .activiteaMarseille .lescartesbas article {
-        background-color:blue;
+        /* background-color:blue; */
         display:inline-block;
         width:24%;
-        padding:0;
-        margin-left:10px;
+        padding-left:10;
+        margin-left:15px;
+    }
+    .lescartesbas{
+        /* background-color: yellow; */
+        padding-right: 25px;
+        padding-left: 20px;
+        width: 100%;
     }
     
     .activiteaMarseille .lescartesbas article figure {
@@ -1633,7 +1632,7 @@ footer ul {
         margin-right: 40px;
         cursor: pointer;
         font-size: 14px;
-        margin-right: 50px;
+        margin-right: -40px;
     }
     
     .ReserviaHebergement a:hover {
@@ -1648,8 +1647,8 @@ footer ul {
         right: 12px;
         color: #0065fc;
         padding: 20px;
-        font-weight: bolder;
         margin-left: -430px;
+        font-weight: lighter;
     }
     
     .Activite {
@@ -1660,10 +1659,11 @@ footer ul {
         padding: 20px;
         font-weight: bolder;
         margin-left: -300px;
+        font-weight: lighter;
     }
     
     a:hover.Activite{
-        border-top: 1px solid #0065fc;
+        border-top: 1px solid #b4b4b4;
     }
     
     a:visited.Activite{
@@ -1675,8 +1675,8 @@ footer ul {
         top: auto;
         right: 0px;
         padding: 20px;
-        color: #0065fc;
-        font-weight: bolder;
+        color:#0065fc;
+        font-weight: bold;
         margin-left: -190px;
     }
     
@@ -1736,7 +1736,7 @@ footer ul {
     
     .footer1 {
         display: block;
-        margin-left:-153px;
+        margin-left:-125px;
     }
     
     .footer2 {
