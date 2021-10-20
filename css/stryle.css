@@ -487,8 +487,8 @@ i.fa-search{
 }
 
 .Marseille {
-    /* width: fit-content; */
-    margin-left: -10px;
+    width: fit-content;
+    margin-left: 13px;
     font-size: medium;
     margin-bottom: 10px;
     font-weight: bolder;
@@ -768,12 +768,14 @@ footer ul {
         height:vh;
         width: 171.5%;
         border-bottom: 1px solid #0065fc;
+        font-weight: lighter;
      }
     
     .Activite {
         display: block;
         margin-left: 30px;
         border-bottom: 1px solid rgb(204, 202, 202);
+        font-weight: lighter;
         width: 190%;
     }
 
@@ -789,6 +791,7 @@ footer ul {
         display: block;
         margin-top:-60px;
         margin-left: -50px;
+        font-weight: bold;
     }
 
     .TrouvezvotreHebergement {
@@ -802,13 +805,15 @@ footer ul {
         font-weight:lighter;
     }
     .Btns {
-        width: 290px;
+        width: 270px;
         height: 35px;
         margin: 0px;
         padding: 0px;
+        font-size: 16px;
     }
     .Btn {
         display: none;
+        
     }
 
     i.fa-search{
@@ -820,7 +825,7 @@ footer ul {
         border: 1px solid #0065fc;
         border-radius: 10px;
         padding: 10px;
-        font-size: 12px;
+        font-size: 13px;
         font-weight: bold;
         margin:0px;
         margin-left: -10px;;
@@ -830,12 +835,22 @@ footer ul {
     }
     .icones{
         display:inline-block;
-        font-size: 19px;
+        font-size: 18px;
     }
     .btn1and2{
         display: inline-flex;
         flex-direction: row;
-        flex-wrap: nowrap;
+        flex-wrap: nowrap;  
+    }
+    .btn1{
+        width: 145px;
+        height: 34px;
+        margin-right: 10px;
+    }
+    .btn2{
+        width: 135px;
+        height: 34px;
+        margin-right: 10px;
     }
     .lescartesdemarseille {
         display: inline-flex;
@@ -867,7 +882,7 @@ footer ul {
         position: relative;
         top: -10px;
         margin-right: -310px;
-        font-size: 16px;
+        font-size: 19px;
         font-weight: bolder;
     }
     .b1 {
@@ -924,8 +939,21 @@ footer ul {
         margin: 0px;
         display: inline-flex;
         flex-direction: column;
-       
     }
+    .activitePortraitCap{
+        padding:25px;
+        padding-top:25px;
+        align-items: center;
+        border: 0px solid transparent;
+        /* justify-content: center; */
+    }
+    .activiteLandscapeCap {
+        padding:25px;
+        padding-top:25px;
+        align-items: center;
+        border: 0px solid transparent;
+    }
+
     .footer {
         display: inline-flex;
         flex-direction: column;
@@ -1434,7 +1462,7 @@ footer ul {
         position: relative;
         top: -10px;
         margin-right: -276px;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: bolder;
     }
     
