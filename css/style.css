@@ -735,6 +735,7 @@ footer ul {
     margin-bottom: 20px;
 }
 
+
 /* ------------------ 375px Breakpoint ------------------------- */
 @media screen and (max-width: 375px) {
     html, body {
@@ -773,7 +774,7 @@ footer ul {
     
     .Activite {
         display: block;
-        margin-left: 30px;
+        margin-left: 26px;
         border-bottom: 1px solid rgb(204, 202, 202);
         font-weight: lighter;
         width: 190%;
@@ -792,6 +793,10 @@ footer ul {
         margin-top:-60px;
         margin-left: -50px;
         font-weight: bold;
+    }
+    .Activite{
+        color:grey;
+
     }
 
     .TrouvezvotreHebergement {
@@ -819,7 +824,7 @@ footer ul {
     i.fa-search{
         display: inline-flex;
         flex-direction: row;
-        width: fit-content;
+        width: auto;
         color: white;
         background-color: #0065fc;
         border: 1px solid #0065fc;
@@ -911,6 +916,10 @@ footer ul {
     }
     .titreHotel, .NI, .Istars{
         font-size: 16px;;
+    }
+    .Istars {
+        font-size: small;
+     
     }
     .Cartehotel:hover {
         transform: none;
@@ -1020,24 +1029,36 @@ footer ul {
         font-weight: bolder;       
     }
 }
+@media  and (max-width: 768px;){ 
+    html, body {
+        margin: 0px;
+        display:block;
+        justify-content: center;
+        align-items:center;
+    }
+    .ReserviaHebergement {
+        display: inline-flex;
+        margin-left: 150px;
+    }
+    
+}
+
 @media screen and (min-width: 1024px) {
     @font-face {
         font-family: Raleway;
         src: url(../fonts/static/Raleway-Regular.ttf) format("truetype");
     }
+    html, body {
+        /* display: flex; */
+        /* flex-direction: column;*/
+        font-family: Raleway, sans-serif;
+        /* text-decoration: none;*/
+         /* max-width: 900px; */
+     }
     
-    /* taille de la page web*/
-    
-      html, body {
-       /* display: flex; */
-       /* flex-direction: column;*/
-       font-family: Raleway, sans-serif;
-       /* text-decoration: none;*/
-        /* max-width: 900px; */
-    }
     .conteneur{
         max-width:1300px;
-        margin:0 auto;
+        /* margin:0 auto; */
         /* background-color: red;  */
     }
 
@@ -1047,13 +1068,15 @@ footer ul {
     }
     
     a:link {
+
+
         padding-top: 20px;
         text-decoration: none;
     }
     
-    .haut1 {
+    /* .haut1 {
         width: auto;
-    }
+    } */
     
     header {
         width: 100%;
